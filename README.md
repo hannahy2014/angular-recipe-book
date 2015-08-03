@@ -1,6 +1,6 @@
 # angular-recipe-book
 
-Recipe book with Angular.js
+Simple recipe book app with Angular.js
 
 ![screenshot](https://github.com/hannahy2014/angular-recipe-book/blob/master/screenshots/main.png?raw=true)
 
@@ -8,6 +8,7 @@ Recipe book with Angular.js
 
 TO DO
 
-## How to use
+* index.html
+* select 'open in browser'
 
 TO DO
