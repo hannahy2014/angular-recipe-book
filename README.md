@@ -6,9 +6,8 @@ Simple recipe book app with Angular.js
 
 ## Installation
 
-TO DO
+## Run
 
 * index.html
 * select 'open in browser'
 
-TO DO
