@@ -1,0 +1,49 @@
+html  {
+  background: url(../img/background_image_header.jpg) no-repeat  fixed;
+  background-position: center; 
+}
+
+#veggies_header {
+  text-align: center;
+}
+
+#intro_text {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+}
+
+body {
+  font-family: Matchmaker-Regular;
+}
+
+/* list of recipes*/
+.recipe_item:hover {
+  color: #63bd9f;
+}
+
+#selected_method {
+  margin-left: 200px; 
+  margin-right: 200px;
+  text-align: left;
+}
+
+li.recipe_item {
+  list-style-type: none;
+}
+
+#ingredient_list {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2  {
+  text-align: center;
+}
+
+#titles {
+  position: justify;
+}
