@@ -15,16 +15,6 @@
       };
   }]);
 
-// ***********************************************************  
-
-//   .module('app', ['angularFileUpload'])
-//       .controller('AppController', function($scope, FileUploader) {
-//           $scope.uploader = new FileUploader();
-//       });
-
-// ***********************************************************      
-
-
   recipes = [
   {
     title: "Lemony Butter Beans",
@@ -45,7 +35,7 @@
       ingredients: [
       {ingredient: "1/2 cucumber"},
       {ingredient: "3 tbsp white wine vinegar"},
-      {ingredient: "squirt of Agave syrup"}, 
+      {ingredient: "dash of Agave syrup"}, 
       {ingredient: "1 tsp chopped dill"}, 
       {ingredient: "pinch sea salt & pepper"},
     ],
