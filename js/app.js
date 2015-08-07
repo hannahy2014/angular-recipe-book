@@ -28,7 +28,7 @@
       {ingredient: "1 tbsp chopped parsley"}, 
       {ingredient: "olive oil"}
     ],
-    method: "Add a little olive oil to a saucepan and set over a medium heat. Finely slice the onion and chop the garlic and add to the pan. Slowly cook the onions and garlic until beginning to soften, add the Noilly Prat and turn the heat up a little (the onion should just soften rather than colour). Add the butter beans and stir gently, they're fragile so be gentle. Heat through then add the spinach to wilt. Take off the heat and stir in the lemon juice, peel and parsley. Serve with a turn of black pepper."
+    method: "Add a little olive oil to a saucepan and set over a medium heat. Finely slice the onion and chop the garlic and add to the pan. Slowly cook the onions and garlic until beginning to soften, add the Noilly Prat and turn the heat up a little (the onion should just soften rather than colour). Add the butter beans and stir , they're fragile so be gentle. Heat through then add the spinach to wilt. Take off the heat and stir in the lemon juice, peel and parsley. Serve with a turn of black pepper."
   },
     {
       title: "Easy Pickled Cucumber",

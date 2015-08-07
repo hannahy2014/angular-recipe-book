@@ -13,9 +13,20 @@ html  {
   text-align: left;
 }
 
+#recipe_list_button {
+    background-color: #63bd9f;
+    font-size: 20px;
+    font-family: Matchmaker-Regular;
+}
+
+#recipe_list_button:hover {
+  background-color: #eee9c0;
+}
+
 body {
   font-family: Matchmaker-Regular;
 }
+
 
 /* list of recipes*/
 .recipe_item:hover {

@@ -7,12 +7,13 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    
+
     <link rel="stylesheet" href="css/style.css">
 
     <div id="header_image"> 
     <link rel="stylesheet" type="text/css" href="css/matchmaker_font.css">
     </div>
+
   </head>
 
 <body>
@@ -21,7 +22,6 @@
     <img src="img/veggies.png">
   </section>
 
-    <hr width="100%" align="center" color="#63bd9f" size="1px">
     <hr width="100%" align="center" color="#63bd9f" size="3px">
 
   <h2><h2>
@@ -44,8 +44,12 @@
 
     <section ng-show="selectedRecipe">
 
+    <button name="return_to_recipe_list" id="recipe_list_button" ng-click="selectRecipe(recipe)" ng-show="selectedRecipe">Recipe List</button>
+
         <div id="titles">
+
           <h2><div>{{ selectedRecipe.title}}</div></h2>
+
             <hr width="50%" align="center" color="#63bd9f" size="1px">
             <hr width="50%" align="center" color="#63bd9f" size="3px">
 
@@ -58,17 +62,19 @@
           <hr width="25%" align="center" color="#63bd9f" size="1px">
           
           <div id="method">Method: </div>
-          <hr width="25%" align="center" color="#63bd9f" size="1px">
+            <hr width="25%" align="center" color="#63bd9f" size="1px">
           <div id="selected_method">{{ selectedRecipe.method}}</div>
-          
+
         </div>
      
     </section>
 
+    <hr width="50%" align="center" color="#63bd9f" size="1px">
+
     <!-- Show/hide home--> 
 
     <section id="intro_text" ng-hide="selectedRecipe" align="center" width="50%">
-     <p>Hashtag Kickstarter roof party, heirloom banjo crucifix tote bag viral pop-up four dollar toast pickled Bushwick VHS. Flexitarian Tumblr skateboard PBR, you probably haven't heard of them gastropub tilde crucifix Odd Future. Mustache typewriter salvia artisan ethical Odd Future, post-ironic.</p>
+       <p>Why not? Wait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Doc. Hey Dad, George, hey, you on the bike. I'm too loud. I can't believe it. I'm never gonna get a chance to play in front of anybody.</p>
     </section>
 
 </body>
